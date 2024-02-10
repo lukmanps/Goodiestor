@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-drop {
+    background-color: #000000;
+    height: 100vh;
+    z-index: -1
+}
+.back-drop-1 {
+    background-image: url('./Assets/Rectangle\ 15.svg');
+    height: 120px;
+    z-index: -1;
+}
+.navbar-line {
+    border-top: 3px solid #FFC000;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFC000 !important;
+    /* Change 'red' to your desired active color */
+}
+
+.main-button{
+    background: none;
+}
+
+.section-2-img{
+    width: 35rem;
+    height: 23rem;
+}
+
+.card{
+    border-radius: 0px;
+}
+
+.card-img{
+    border-radius: 0px;
+    object-fit: fill;
+}
+
+.btn{
+    border-radius: 0px;
+}
